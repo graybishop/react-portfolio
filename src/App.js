@@ -4,6 +4,7 @@ import Header from './components/page-components/Header.js';
 import About from './components/About/About.js';
 import Contact from './components/Contact/Contact.js';
 import Footer from './components/page-components/Footer.js';
+import Resume from './components/Resume/Resume.js';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
         return <Portfolio />
       case pages[2]:
         return <Contact />
+      case pages[3]:
+        return <Resume />
     
       default:
         break;
@@ -28,7 +31,7 @@ function App() {
   let navigationProps = {pages, setCurrentPage}
 
   return (
-    <div>
+    <div className='flex flex-col h-full'>
       <Header navigationProps={navigationProps}/>
       {renderSection()}
       <Footer />
