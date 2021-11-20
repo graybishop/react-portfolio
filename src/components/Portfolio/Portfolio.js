@@ -36,8 +36,11 @@ const Portfolio = () => {
   )
 
   return (
-    <div>
-      <h2 className="text-3xl">Portfolio</h2>
+    <div className="bg-dim-gray text-white container mx-auto">
+      <div className='headerDiv'>
+      <h2>Portfolio</h2>
+      <i className="fas fa-folder-open"></i>
+      </div>
       {projectComponents}
     </div>
   )
