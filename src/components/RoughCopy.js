@@ -1,7 +1,11 @@
 const RoughCopy = (props) => {
   return (<div>
+    <div>
+      <p>TEST</p>
+      {[<p>does this render</p>, <p>how about this one</p>]}
+    </div>
     <header>
-        <h1 class="profile-name">Jake Swackhammer</h1>
+        <h1 className="text-red-500">Jake Swackhammer</h1>
         <nav>
             <a href="#about-me">About Me</a>
             <a href="#work">Work</a>
