@@ -37,7 +37,7 @@ const Portfolio = () => {
 
   return (
     <div>
-      <h2>Portfolio</h2>
+      <h2 className="text-3xl">Portfolio</h2>
       {projectComponents}
     </div>
   )
