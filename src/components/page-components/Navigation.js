@@ -6,7 +6,7 @@ const Navigation = ({navigationProps}) => {
   
 
   return (
-    <nav className='flex flex-row gap-2'>
+    <nav className='grid grid-cols-2 gap-3 w-full px-4'>
       <button onClick={()=>clickHandler(navigationProps.pages[0])}>About Me</button>
       <button onClick={()=>clickHandler(navigationProps.pages[1])}>Portfolio</button>
       <button onClick={()=>clickHandler(navigationProps.pages[2])}>Contact</button>

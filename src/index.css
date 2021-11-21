@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 button {
-  @apply border-fancy-purple text-white p-2 bg-fancy-purple rounded hover:bg-fancy-purple-hovered
+  @apply border-fancy-purple text-timberwolf p-2 bg-fancy-purple rounded hover:bg-fancy-purple-hovered font-semibold
 }
 
 .headerDiv{
-  @apply flex flex-row justify-between items-center px-4 py-4 mb-2 filter drop-shadow-lg text-4xl font-semibold backdrop-filter backdrop-brightness-75
+  @apply flex flex-row justify-between items-center px-4 py-4 mb-2 filter drop-shadow text-4xl font-bold
+}
+
+.headerDiv div{
+  @apply flex flex-row justify-between items-center w-full border-b-2 pb-2 border-timberwolf
 }
