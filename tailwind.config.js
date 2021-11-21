@@ -11,7 +11,9 @@ module.exports = {
         "gold-metallic": "#deb841",
         "fancy-purple": "#251351",
         "fancy-purple-hovered": "#3C1F84",
-        "timberwolf": "#D8DAD3"
+        "timberwolf": "#D8DAD3",
+        "imperial-red": '#620410',
+        "secondary-color": '#FB4D3D'
       }
     },
   },
