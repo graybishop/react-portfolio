@@ -36,14 +36,14 @@ const Portfolio = () => {
   );
 
   return (
-    <section className="bg-black-coffee-dark text-timberwolf container mx-auto pb-6">
+    <section className="bg-black-coffee-dark text-timberwolf container mx-auto pb-6 md:w-10/12 lg:w-8/12 xl:w-6/12">
       <div className='headerDiv'>
         <div>
           <h2>Portfolio</h2>
           <i className="fas fa-folder-open"></i>
         </div>
       </div>
-      <div className="flex flex-col gap-6 px-4 py-2 leading-relaxed">
+      <div className="flex flex-col gap-6 px-4 py-2 leading-relaxed lg:grid lg:grid-cols-2">
         {projectComponents}
       </div>
     </section>
