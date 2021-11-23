@@ -36,7 +36,7 @@ const Portfolio = () => {
   );
 
   return (
-    <div className="bg-black-coffee-dark text-timberwolf container mx-auto pb-6">
+    <section className="bg-black-coffee-dark text-timberwolf container mx-auto pb-6">
       <div className='headerDiv'>
         <div>
           <h2>Portfolio</h2>
@@ -46,7 +46,7 @@ const Portfolio = () => {
       <div className="flex flex-col gap-6 px-4 py-2 leading-relaxed">
         {projectComponents}
       </div>
-    </div>
+    </section>
   );
 };
 

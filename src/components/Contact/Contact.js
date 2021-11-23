@@ -21,8 +21,11 @@ const Contact = () => {
   return (
     <section className="bg-black-coffee-dark text-timberwolf container mx-auto pb-6">
       <div className='headerDiv'>
-        <h2>Contact Me</h2>
-        <i class="far fa-comment-dots"></i>
+        <div>
+          <h2>Contact Me</h2>
+          <i class="far fa-comment-dots"></i>
+
+        </div>
       </div>
       <form action="" className="flex flex-col gap-2 p-4">
         <div>

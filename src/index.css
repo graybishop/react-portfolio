@@ -7,7 +7,7 @@ button {
 }
 
 .headerDiv{
-  @apply flex flex-row justify-between items-center px-4 py-4 mb-2 filter drop-shadow text-4xl font-bold
+  @apply flex flex-row justify-between items-center px-4 py-4 filter drop-shadow text-4xl font-bold
 }
 
 .headerDiv div{
