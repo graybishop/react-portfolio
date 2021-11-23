@@ -11,6 +11,10 @@ My portfolio rebuilt with [React.js](https://reactjs.org/), 'A JavaScript librar
 
 ## Screenshots
 
+![homepage image](images/homepage.png)
+
+![project page image](images/projects.png)
+
 ## Tech Stack
 
 * React.js
