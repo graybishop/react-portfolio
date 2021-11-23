@@ -31,7 +31,7 @@ function App() {
   let navigationProps = {pages, setCurrentPage}
 
   return (
-    <div className='flex flex-col h-full'>
+    <div className='flex flex-col h-full bg-black-coffee'>
       <Header navigationProps={navigationProps}/>
       {renderSection()}
       <Footer />
