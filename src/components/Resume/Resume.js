@@ -1,6 +1,6 @@
 const Resume = () => {
   return (
-    <section className="bg-black-coffee-dark text-timberwolf container mx-auto pb-6">
+    <section className="bg-black-coffee-dark text-timberwolf container mx-auto pb-6 md:w-10/12 lg:w-8/12 xl:w-6/12">
       <div className='headerDiv'>
         <div>
           <h2>Resume</h2>
